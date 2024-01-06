@@ -525,12 +525,12 @@ table td {
  shutil.copy(file_src,result_path)
 
  #################################################################################################
- #Copying Results to Mimir Network drive
+ #Copying Results to xxxxx Network drive
  
  def network_backup():
   try:
    #Add your path here to store on a network drive
-   res2_tmp ="\\\\mimir\\Documents\\Nitin_Ramesh\\SATT_Results"
+   res2_tmp ="\\\\xxxxx\\Documents\\Nitin_Ramesh\\SATT_Results"
    result2_path = str(res2_tmp) + "\\" + str(now.year) +"_"+ str(now.month) +"_"+ str(now.day) +"_"+ str(now.hour) +"_"+ str(now.minute) +"_"+ str(now.second) +"\\"
    #print result2_path
    if not os.path.exists(result_path):
