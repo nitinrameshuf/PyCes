@@ -314,10 +314,10 @@ def main():
 #  print("This is the command: " + args3 + " and " + dir_1)
  command_execution(args3)
  print ("Successful! \n")
- print ("Running Grepper \n")
- print("This is the command: " + args4 + " and " + dir_2)
- command_execution_2(args4,dir_2)
- print ("Successful! \n")
+#  print ("Running Grepper \n")
+#  print("This is the command: " + args4 + " and " + dir_2)
+#  command_execution_2(args4,dir_2)
+#  print ("Successful! \n")
  print ("Writing Output to files...\n")
  
  #################################################################################################
