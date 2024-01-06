@@ -180,7 +180,7 @@ def main():
    dep_path = base_path + "/Repository/dependency-check/bin"
    src_path = get_src_path()
    base_path = get_base_path()
-   args3 = 'dependency-check -s '+ src_path + '/' +' --project trial_project -o '+ base_path 
+   args3 = './dependency-check.sh -s '+ src_path + '/' +' --project trial_project -o '+ base_path 
    base_path = get_base_path()
    pymcd_path = base_path + "/Repository/Grep_Tool/python/"
    src_path = get_src_path()
