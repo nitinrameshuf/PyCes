@@ -312,7 +312,7 @@ def main():
  print ("Running Dependency Check \n")
  dir_1 = dep_path
 #  print("This is the command: " + args3 + " and " + dir_1)
- command_execution(args3)
+ command_execution_2(args3,dir_1)
  print ("Successful! \n")
 #  print ("Running Grepper \n")
 #  print("This is the command: " + args4 + " and " + dir_2)
